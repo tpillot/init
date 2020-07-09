@@ -1,0 +1,1 @@
+sudo pkill -fx 'tail -f /var/log/syslog'

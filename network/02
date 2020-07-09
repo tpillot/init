@@ -1,0 +1,5 @@
+ifconfig en0
+echo ""
+echo -n "(a) "; ifconfig en0 | grep broadcast | cut -d " " -f 6
+echo ""
+echo -n "(b) "; ifconfig en0 | grep broadcast | cut -d " " -f 2-4
